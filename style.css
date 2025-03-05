@@ -65,6 +65,21 @@
   }
 }
 
+@media (max-width: 768px) {
+  #image1 {
+    display: none;
+  }
+
+  #image2 {
+    display: none;
+  }
+
+  .col-md-4 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
 .header-custom {
   position: relative;
   background-image: url("assets/header2.jpg");

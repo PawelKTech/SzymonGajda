@@ -65,18 +65,21 @@
       <div
         class="container d-flex justify-content-center align-items-center flex-column fw-light text-center"
       >
-        <h1 class="fw-bold display-4">Szymon Gajda</h1>
+        <h1 class="fw-bold display-4">
+          <span class="text-warning">S</span>zymon
+          <span class="text-warning">G</span>ajda
+        </h1>
         <p class="lead">
           Jestem młodym koszykarzem z determinacją, pasją i celami sięgającymi
           najwyższych sportowych szczytów.
         </p>
         <a href="#about" class="btn btn-warning btn-lg mt-3 p-3 shadow">
-          <i class="fa-solid fa-basketball me-2"></i> Poznaj moją historię
+          <i class="fa-solid fa-basketball me-2 fs-5"></i> Poznaj moją historię
         </a>
       </div>
     </header>
 
-    <section id="about" class="py-5">
+    <section id="about" class="py-5 mt-3">
       <div class="container p-4">
         <div class="row align-items-center">
           <!-- Tekst o mnie -->
@@ -122,6 +125,7 @@
                   transform: rotate(-5deg);
                   z-index: 1;
                 "
+                id="image1"
               />
               <!-- Zdjęcie na górze -->
               <img
@@ -129,13 +133,14 @@
                 alt="Zdjęcie 2"
                 class="img-fluid rounded shadow-lg position-relative"
                 style="max-width: 350px; transform: rotate(5deg); z-index: 2"
+                id="image2"
               />
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="stats" class="py-5 bg-light">
+    <section id="stats" class="py-5 bg-light mt-4">
       <h1 class="text-center fw-light mb-4">
         <i class="bi bi-bar-chart-fill text-warning"></i>
         Statystyki
@@ -264,48 +269,50 @@
       </div>
     </section>
 
-    <section id="gallery" class="py-5">
+    <section id="gallery" class="py-5 mt-4">
       <div class="container">
         <h1 class="text-center mb-4 fw-light">
           <i class="bi bi-images text-warning me-2"></i>Galeria
         </h1>
-        <p class="text-center">
+        <p class="text-center fw-light fs-4">
           Oto moje najlepsze momenty z meczów i treningów!
         </p>
         <div class="row g-4">
           <div class="col-md-4">
             <div class="card border-0 shadow">
               <img
-                src="assets/photo1.jpg"
+                src="assets/profileimage2.jpg"
                 class="card-img-top"
                 alt="Opis zdjęcia 1"
               />
               <div class="card-body text-center">
-                <p class="card-text">Trening przed ważnym meczem.</p>
+                <p class="card-text fw-light fs-5">
+                  Trening przed ważnym meczem.
+                </p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card border-0 shadow">
               <img
-                src="assets/photo2.jpg"
+                src="assets/profileimage.jpg"
                 class="card-img-top"
                 alt="Opis zdjęcia 2"
               />
               <div class="card-body text-center">
-                <p class="card-text">Decydująca akcja w meczu.</p>
+                <p class="card-text fw-light fs-5">Decydująca akcja w meczu.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card border-0 shadow">
               <img
-                src="assets/photo3.jpg"
+                src="assets/photo4.jpg"
                 class="card-img-top"
                 alt="Opis zdjęcia 3"
               />
               <div class="card-body text-center">
-                <p class="card-text">Radość po zwycięstwie!</p>
+                <p class="card-text fw-light fs-5">Radość po zwycięstwie!</p>
               </div>
             </div>
           </div>
@@ -313,7 +320,7 @@
       </div>
     </section>
 
-    <section id="contact" class="py-5 bg-light">
+    <section id="contact" class="py-5 bg-light mt-5">
       <div class="container">
         <h1 class="text-center fw-light">
           <i class="bi bi-person-lines-fill text-warning me-3"></i>Kontakt
